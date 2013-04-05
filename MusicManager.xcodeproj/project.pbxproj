@@ -18,6 +18,8 @@
 		0A01E358170AB87900BD73D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A01E357170AB87900BD73D5 /* Default-568h@2x.png */; };
 		0A01E35B170AB87900BD73D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A01E35A170AB87900BD73D5 /* ViewController.m */; };
 		0A01E35E170AB87900BD73D5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A01E35C170AB87900BD73D5 /* ViewController.xib */; };
+		0A01E366170AB88C00BD73D5 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A01E365170AB88C00BD73D5 /* Song.m */; };
+		0A01E368170AE11F00BD73D5 /* My love.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A01E367170AE11F00BD73D5 /* My love.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		0A01E359170AB87900BD73D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0A01E35A170AB87900BD73D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A01E35D170AB87900BD73D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0A01E364170AB88C00BD73D5 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		0A01E365170AB88C00BD73D5 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		0A01E367170AE11F00BD73D5 /* My love.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "My love.jpg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +88,15 @@
 		0A01E347170AB87900BD73D5 /* MusicManager */ = {
 			isa = PBXGroup;
 			children = (
+				0A01E367170AE11F00BD73D5 /* My love.jpg */,
 				0A01E350170AB87900BD73D5 /* AppDelegate.h */,
 				0A01E351170AB87900BD73D5 /* AppDelegate.m */,
 				0A01E359170AB87900BD73D5 /* ViewController.h */,
 				0A01E35A170AB87900BD73D5 /* ViewController.m */,
 				0A01E35C170AB87900BD73D5 /* ViewController.xib */,
 				0A01E348170AB87900BD73D5 /* Supporting Files */,
+				0A01E364170AB88C00BD73D5 /* Song.h */,
+				0A01E365170AB88C00BD73D5 /* Song.m */,
 			);
 			path = MusicManager;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				0A01E356170AB87900BD73D5 /* Default@2x.png in Resources */,
 				0A01E358170AB87900BD73D5 /* Default-568h@2x.png in Resources */,
 				0A01E35E170AB87900BD73D5 /* ViewController.xib in Resources */,
+				0A01E368170AE11F00BD73D5 /* My love.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				0A01E34E170AB87900BD73D5 /* main.m in Sources */,
 				0A01E352170AB87900BD73D5 /* AppDelegate.m in Sources */,
 				0A01E35B170AB87900BD73D5 /* ViewController.m in Sources */,
+				0A01E366170AB88C00BD73D5 /* Song.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "Song.h"
+@interface ViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>{
+    Song *_song;
+}
 @end
